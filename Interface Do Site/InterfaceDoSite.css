@@ -58,7 +58,7 @@ main{
     color: white;
 }
 
-.carrossel .carrossel-track {
+.carrossel .filmes-track {
     display: flex;
     gap: 16px;
     justify-content: flex-start;
