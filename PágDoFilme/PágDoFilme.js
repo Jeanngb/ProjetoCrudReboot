@@ -3,14 +3,16 @@ document.addEventListener("DOMContentLoaded", function() {
     const movieData = [
         {
             "id": 1,
-            "titulo": "Homem-Aranha: Através do Aranhaverso",
-            "descricao": "Após se reencontrar com Gwen Stacy, o amigável Homem-Aranha da vizinhança, morador do Brooklyn, é catapultado através do Multiverso, onde encontra a Sociedade Aranha, uma equipe de Homens-Aranha encarregada de proteger a própria existência do Multiverso.",
-            "ano": 2013,
-            "avaliacao": "4.4/5",
-            "ondeAssistir": ["Netflix", "Prime Video"],
-            "diretor": "Justin K. Thompson e Kemp Powers",
-            "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/image1_2jjv.960.jpg",
-            "trailer": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+            "nome": "Um Sonho de Liberdade", 
+            "sinopse": "Em 1947, o jovem banqueiro Andy Dufresne é condenado à prisão perpétua pelo assassinato de sua esposa e do amante dela. No entanto, apenas Andy sabe que não cometeu os crimes. Encarcerado em Shawshank, a penitenciária mais rigorosa do estado do Maine, ele faz amizade com Ellis Boyd Redding, um homem desiludido que está preso há 20 anos.",
+            "capaPrincipal": "https://cdn-cosmos.bluesoft.com.br/products/883311220363",
+            "capaFundo": "https://img.englishcinemazurich.com/Nh0Jt5ORLp7ZKIE9L7GzG1scmjpmZtRuiyVp6D9oPVI/resize:fill:800:450:1:0/gravity:sm/aHR0cHM6Ly9leHBhdGNpbmVtYXByb2QuYmxvYi5jb3JlLndpbmRvd3MubmV0L2ltYWdlcy9jYTk0MDU5NS01MjIwLTQxNDgtOTlhYy0yMTExNWM0ZjkxMDcuanBn.jpg",
+            "anoLancamento": 1994,
+            "diretor": "Frank Darabont",
+            "genero": "Drama",
+            "nota": 4.62/5.00,
+            "trailer": "https://youtu.be/PLl99DlL6b4?si=RMT0716rUs0a8UvP",
+            "streaming": "HBO MAX"
         }
     ];
 
