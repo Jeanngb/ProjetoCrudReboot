@@ -40,7 +40,7 @@ const filmes = [
       "Após se reencontrar com Gwen Stacy, o amigável Homem-Aranha da vizinhança, morador do Brooklyn, é catapultado através do Multiverso, onde encontra a Sociedade Aranha, uma equipe de Homens-Aranha encarregada de proteger a própria existência do Multiverso. Mas quando os heróis entram em conflito sobre como lidar com uma nova ameaça, Miles se vê em conflito com os outros Homens-Aranha e precisa seguir sozinho para salvar aqueles que mais ama.",
     capaPrincipal:
       "https://a.ltrbxd.com/resized/film-poster/4/9/7/6/3/1/497631-spider-man-across-the-spider-verse-0-1000-0-1500-crop.jpg?v=f2acbf1b8a",
-    capaFundo: "img/i730374.jpeg",
+    capaFundo: "https://www.google.com/url?sa=i&url=https%3A%2F%2Folhardigital.com.br%2F2023%2F04%2F04%2Fcinema-e-streaming%2Fhomem-aranha-trailer-final-de-aranhaverso-2-traz-referencias-do-mcu%2F&psig=AOvVaw00BhV8uu2kLj2lD0JjO8hm&ust=1763073814411000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCMDYu_TX7ZADFQAAAAAdAAAAABAL",
     anoLancamento: 2023,
     diretor: "Justin K. Thompson e Kemp Powers",
     genero: "Ação",
