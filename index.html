@@ -133,7 +133,7 @@
 
     <footer>© LocMovies. Todos os direitos reservados.</footer>
 
-    <script src="filmes.js"></script>
+    <script src="/Interface Do Site/movies.js"></script>
     <script>
       // Função para carregar o catálogo de filmes
       function carregarCatalogo() {
@@ -163,7 +163,7 @@
 
           // Ao clicar no filme, redirecionar para index.html com o ID
           cardFilme.addEventListener("click", function () {
-            window.location.href = `index.html?id=${filme.id}`;
+            window.location.href = `/PágDoFilme/index.html?id=${filme.id}`;
           });
 
           gridFilmes.appendChild(cardFilme);
