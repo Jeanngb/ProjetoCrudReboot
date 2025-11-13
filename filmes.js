@@ -255,6 +255,51 @@ const filmes = [
   },
   {
     id: 15,
+    nome: "O Túmulo dos Vagalumes",
+    sinopse:
+      "Nos últimos meses da Segunda Guerra Mundial, Seita, de 14 anos, e sua irmã Setsuko ficam órfãos quando sua mãe é morta durante um ataque aéreo em Kobe, no Japão. Após uma briga com a tia, eles se mudam para um abrigo antiaéreo abandonado. Sem parentes vivos e com suas rações de emergência esgotadas, Seita e Setsuko lutam para sobreviver.",
+    capaPrincipal:
+      "https://a.ltrbxd.com/resized/film-poster/4/4/5/5/8/44558-grave-of-the-fireflies-0-1000-0-1500-crop.jpg?v=0c61fd55f0",
+    capaFundo: "https://static01.nyt.com/images/2019/01/04/arts/04grave1/merlin_148555677_8f4ad2ce-9e3a-4c44-bf1b-24c3c1c51192-superJumbo.jpg",
+    anoLancamento: 1988,
+    diretor: "Isao Takahata",
+    genero: "Animação, Drama",
+    nota: 4.41,
+    trailer: "https://www.youtube.com/embed/lhlh7JVcTt8?si=_3pBGHL8RR_FTLwN",
+    streaming: ["NETFLIX"],
+  },
+  {
+    id: 16,
+    nome: "Harakiri",
+    sinopse:
+      "O veterano Tsugumo Hanshirō, em má situação financeira, entra no pátio da próspera Casa Iyi. Desempregado e sem família, ele espera encontrar um lugar para cometer seppuku — e um segundo digno para dar o golpe de misericórdia em seu ritual de suicídio.",
+    capaPrincipal:
+      "https://a.ltrbxd.com/resized/film-poster/4/3/0/1/5/43015-harakiri-0-1000-0-1500-crop.jpg?v=007080a0fb",
+    capaFundo: "https://assets.mubicdn.net/images/film/743/image-w1280.jpg?1745490606",
+    anoLancamento: 1962,
+    diretor: "Masaki Kobayashi",
+    genero: "Drama",
+    nota: 4.41,
+    trailer: "https://www.youtube.com/embed/gfABwM-Ppng?si=wyS4YvXEeWYYXzir",
+    streaming: ["AMAZON"],
+  },
+  {
+    id: 17,
+    nome: "Vá e Veja",
+    sinopse:
+      "A invasão de uma aldeia na Bielorrússia pelas forças alemãs leva o jovem Florya para a floresta a juntar-se aos exaustos combatentes da Resistência, contra a vontade da sua família. Lá, ele conhece uma jovem, Glasha, que o acompanha de volta à sua aldeia. Ao retornar para casa, Florya encontra sua família e outros camponeses massacrados. Sua luta pela sobrevivência em meio aos destroços brutais da guerra torna-se cada vez mais angustiante, uma batalha entre o desespero e a esperança.",
+    capaPrincipal:
+      "https://a.ltrbxd.com/resized/film-poster/3/6/1/9/2/36192-come-and-see-0-1000-0-1500-crop.jpg?v=741b0269bb",
+    capaFundo: "https://modernmoviemeltdown.wordpress.com/wp-content/uploads/2016/07/come-and-see-1.jpg?w=584",
+    anoLancamento: 1985,
+    diretor: "Elem Klimov",
+    genero: "Guerra",
+    nota: 4.41,
+    trailer: "https://www.youtube.com/embed/UHaSQU-4wss?si=R6kqMJNuZfmf8Lvd",
+    streaming: ["AMAZON"],
+  },
+  {
+    id: 18,
     nome: "Parasita",
     sinopse:
       "Uma família pobre coreana se infiltra na vida de uma família rica, criando uma rede de mentiras e manipulações. Mas quando o segredo deles é revelado, a tensão explode em uma crítica poderosa sobre desigualdade social.",
@@ -270,7 +315,7 @@ const filmes = [
     streaming: ["AMAZON"],
   },
   {
-    id: 16,
+    id: 19,
     nome: "Interestelar",
     sinopse:
       "Um grupo de astronautas viaja através de um buraco de minhoca no espaço na tentativa de garantir a sobrevivência da humanidade. Um épico de ficção científica sobre amor, sacrifício e sobrevivência.",
@@ -286,7 +331,23 @@ const filmes = [
     streaming: ["NETFLIX"],
   },
   {
-    id: 17,
+    id: 20,
+    nome: "O Exterminador do Futuro 2: O Julgamento Final",
+    sinopse:
+      "Dez anos após os eventos do filme original, um T-800 reprogramado é enviado de volta no tempo para proteger o jovem John Connor do T-1000, um ser capaz de mudar de forma. Juntamente com sua mãe, Sarah, ele luta para impedir que a Skynet desencadeie um apocalipse nuclear.",
+    capaPrincipal:
+      "https://a.ltrbxd.com/resized/sm/upload/03/67/3s/tc/terminator-2-judgment-day-original-0-1000-0-1500-crop.jpg?v=12f5752b5c",
+    capaFundo:
+      "https://uploads.jovemnerd.com.br/wp-content/uploads/2024/08/exterminador_29_de_agosto__2ls38ri0.jpg",
+    anoLancamento: 1991,
+    diretor: "James Cameron",
+    genero: "Ação, Ficção Científica",
+    nota: 4.38,
+    trailer: "https://www.youtube.com/embed/CRRlbK5w8AE?si=QNS3rDYHxAoDvVeR",
+    streaming: ["AMAZON"],
+  },
+  {
+    id: 21,
     nome: "Clube da Luta",
     sinopse:
       "Um homem insone e sem propósito conhece Tyler Durden, um vendedor carismático que o introduz a um clube secreto de luta. À medida que o grupo cresce, a linha entre a sanidade e o caos se desfaz, revelando um final chocante sobre identidade e rebeldia moderna.",
@@ -302,7 +363,119 @@ const filmes = [
     streaming: ["NETFLIX", "MAX"],
   },
   {
-    id: 18,
+    id: 22,
+    nome: "A Viagem de Chihiro",
+    sinopse:
+      "Uma jovem garota, Chihiro, fica presa em um estranho mundo de espíritos. Quando seus pais sofrem uma misteriosa transformação, ela precisa encontrar uma coragem que nunca soube que possuía para libertar sua família.",
+    capaPrincipal:
+      "https://a.ltrbxd.com/resized/film-poster/5/1/9/2/1/51921-spirited-away-0-1000-0-1500-crop.jpg?v=a3ad463c55",
+    capaFundo:
+      "https://i0.wp.com/studioghibli.com.br/wp-content/uploads/2020/04/A-Viagem-de-Chihiro-chihiro-e-haku.jpg?fit=1920%2C1082&ssl=1",
+    anoLancamento: 2001,
+    diretor: "Hayao Miyazaki",
+    genero: "Animação, Aventura",
+    nota: 4.38,
+    trailer: "https://www.youtube.com/embed/ByXuk9QqQkk?si=9HdgS3ZofNKMWrdq",
+    streaming: ["NETFLIX"],
+  },
+  {
+    id: 23,
+    nome: "Um Estranho no Ninho",
+    sinopse:
+      "Um criminoso de baixa patente finge insanidade para cumprir sua pena em um manicômio em vez de na prisão. Ele logo se torna um líder entre os outros pacientes — e um inimigo da enfermeira cruel e dominadora que administra o manicômio.",
+    capaPrincipal:
+      "https://a.ltrbxd.com/resized/sm/upload/lf/ry/hy/2e/RHteRHXqym9f0gI4cmChbFOxD-0-1000-0-1500-crop.jpg?v=1e6a37509a",
+    capaFundo:
+      "https://acervo.oglobo.globo.com/incoming/9207262-c3a-ff9/materia/Jack-Nicholson.jpg",
+    anoLancamento: 1975,
+    diretor: "Milos Forman",
+    genero: "Drama",
+    nota: 4.38,
+    trailer: "https://www.youtube.com/embed/QtXOIfqfegY?si=EBGA9xoxx925c75e",
+    streaming: ["AMAZON"],
+  },
+  {
+    id: 24,
+    nome: "Cinema Paradiso",
+    sinopse:
+      "Um cineasta relembra sua infância, quando se apaixonou pelo cinema no teatro de sua aldeia e formou uma profunda amizade com o projecionista do local.",
+    capaPrincipal:
+      "https://a.ltrbxd.com/resized/film-poster/4/5/4/9/3/45493-cinema-paradiso-0-1000-0-1500-crop.jpg?v=8e66264ed4",
+    capaFundo:
+      "https://images.mubicdn.net/images/film/3174/cache-50595-1745491070/image-w1280.jpg?size=800x",
+    anoLancamento: 1988,
+    diretor: "Giuseppe Tornatore",
+    genero: "Drama",
+    nota: 4.38,
+    trailer: "https://www.youtube.com/embed/JMyVSD6OvO8?si=qwMbQIF9yHSBMJO",
+    streaming: ["AMAZON"],
+  },
+  {
+    id: 25,
+    nome: "O Pianista",
+    sinopse:
+      "A história verídica das experiências do pianista Władysław Szpilman em Varsóvia durante a ocupação nazista. Quando os judeus da cidade se viram confinados em um gueto, Szpilman encontrou trabalho tocando em um café; e quando sua família foi deportada em 1942, ele permaneceu na cidade, trabalhou por um tempo como operário e, por fim, se escondeu nas ruínas da cidade devastada pela guerra.",
+    capaPrincipal:
+      "https://a.ltrbxd.com/resized/film-poster/5/1/6/7/2/51672-the-pianist-0-1000-0-1500-crop.jpg?v=3eee5ac018",
+    capaFundo:
+      "https://trecobox.com.br/wp-content/uploads/2024/12/trecobox.com.br-o-pianista-uma-historia-comovente-de-sobrevivencia-durante-a-segunda-guerra-mundial-o-pianista-1280x720.jpg",
+    anoLancamento: 2002,
+    diretor: "Roman Polanski",
+    genero: "Guerra, Drama",
+    nota: 4.37,
+    trailer: "https://www.youtube.com/embed/BFwGqLa_oAo?si=URj1U1TKoy7T28Wj",
+    streaming: ["AMAZON"],
+  },
+  {
+    id: 26,
+    nome: "A Felicidade Não Se Compra",
+    sinopse:
+      "Um clássico natalino de gerações... George Bailey dedicou sua vida inteira a ajudar os moradores de Bedford Falls. Tudo o que impede o rico e avarento Sr. Potter de tomar posse da cidade inteira é a modesta empresa de construção e empréstimos de George. Mas na véspera de Natal, os US$ 8.000 da empresa desaparecem e os problemas de George começam.",
+    capaPrincipal:
+      "https://a.ltrbxd.com/resized/film-poster/5/0/9/4/9/50949-it-s-a-wonderful-life-0-1000-0-1500-crop.jpg?v=64b72dd083",
+    capaFundo:
+      "https://assets.mubicdn.net/images/film/3388/image-w1280.jpg?1745490366",
+    anoLancamento: 1946,
+    diretor: "Frank Capra",
+    genero: "Natal, Drama",
+    nota: 4.37,
+    trailer: "https://www.youtube.com/embed/iLR3gZrU2Xo?si=hBNgIrpdF4LWfto8",
+    streaming: ["AMAZON"],
+  },
+  {
+    id: 27,
+    nome: "Pulp Fiction",
+    sinopse:
+      "Um assassino de aluguel apaixonado por hambúrgueres, seu parceiro filósofo, a namorada de um gângster viciada em drogas e um boxeador decadente se encontram nesta aventura policial cômica e extensa. Suas peripécias se desenrolam em três histórias que alternam engenhosamente entre passado e presente.",
+    capaPrincipal:
+      "https://a.ltrbxd.com/resized/film-poster/5/1/4/4/4/51444-pulp-fiction-0-1000-0-1500-crop.jpg?v=dee19a8077",
+    capaFundo:
+      "https://m.media-amazon.com/images/M/MV5BNTY1MzgzOTYxNV5BMl5BanBnXkFtZTgwMDI4OTEwMjE@._V1_.jpg",
+    anoLancamento: 1994,
+    diretor: "Quentin Tarantino",
+    genero: "Crime, Ação",
+    nota: 4.36,
+    trailer: "https://www.youtube.com/embed/s7EdQ4FqbhY?si=nfFGjY_QGzOeMC08",
+    streaming: ["NETFLIX"],
+  },
+  {
+    id: 28,
+    nome: "Ikiru",
+    sinopse:
+      "Kanji Watanabe é um homem de meia-idade que trabalha há décadas no mesmo cargo burocrático monótono. Ao descobrir que tem câncer, ele começa a buscar o sentido da sua vida.",
+    capaPrincipal:
+      "https://a.ltrbxd.com/resized/film-poster/4/9/5/9/5/49595-ikiru-0-1000-0-1500-crop.jpg?v=3b6666bd18",
+    capaFundo:
+      "https://static.wixstatic.com/media/8f43d3_571a259815f24b53a8cef56db6d5e410~mv2.jpg/v1/fill/w_568,h_320,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/8f43d3_571a259815f24b53a8cef56db6d5e410~mv2.jpg",
+    anoLancamento: 1952,
+    diretor: "Akira Kurosawa",
+    genero: "Drama",
+    nota: 4.36,
+    trailer: "https://www.youtube.com/embed/geKhyNerWM8?si=hRALhC-uHAXdWFLj",
+    streaming: ["AMAZON"],
+  },
+  {
+    id: 29,
     nome: "Whiplash: Em Busca da Perfeição",
     sinopse:
       "Andrew, um jovem baterista, entra para uma das melhores escolas de música dos EUA. Lá, ele enfrenta o professor Fletcher, um instrutor implacável que acredita que a verdadeira grandeza nasce da pressão extrema.",
@@ -315,6 +488,22 @@ const filmes = [
     genero: "Drama, Música",
     nota: 4.35,
     trailer: "https://www.youtube.com/embed/7d_jQycdQGo",
+    streaming: ["NETFLIX"],
+  },
+  {
+    id: 30,
+    nome: "Forrest Gump",
+    sinopse:
+      "Um homem com baixo QI realizou grandes feitos em sua vida e esteve presente em importantes eventos históricos — em cada caso, superando em muito o que qualquer um imaginava que ele pudesse fazer. Mas, apesar de tudo o que conquistou, seu verdadeiro amor lhe escapa.",
+    capaPrincipal:
+      "https://a.ltrbxd.com/resized/film-poster/2/7/0/4/2704-forrest-gump-0-1000-0-1500-crop.jpg?v=173bc04cf0",
+    capaFundo:
+      "https://www.elhombre.com.br/wp-content/uploads/2021/06/forrest-gump-1.jpg",
+    anoLancamento: 1994,
+    diretor: "Robert Zemeckis",
+    genero: "Drama",
+    nota: 4.35,
+    trailer: "https://www.youtube.com/embed/bLvqoHBptjg?si=5d6YEbZNjGmtI36d",
     streaming: ["NETFLIX"],
   },
 ];
