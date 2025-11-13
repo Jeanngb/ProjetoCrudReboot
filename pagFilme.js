@@ -14,7 +14,7 @@ function carregarFilme(idFilme) {
       logo: "https://www.caviarcriativo.com/storage/2020/06/logotipo-da-netflix.jpg",
       url: "https://www.netflix.com",
     },
-    "DISNEY+": {
+    DISNEY+: {
       logo: "https://t.ctcdn.com.br/DxNATHoRexdVV_g9cIca_86laOo=/1200x675/smart/i1037601.png",
       url: "https://www.disneyplus.com",
     },
@@ -29,6 +29,18 @@ function carregarFilme(idFilme) {
     GLOBOPLAY: {
       logo: "https://assets.b9.com.br/wp-content/uploads/2020/10/Captura-de-Tela-2020-10-05-is-15.09.07.png",
       url: "https://globoplay.globo.com",
+    },
+    PARAMOUNT+: {
+      logo: "https://portalaltadefinicao.com/wp-content/uploads/2021/03/paramount-plus-brasil.jpg",
+      url: "https://www.paramountplus.com/br/",
+    },
+    MUBI: {
+      logo: "https://casaldougkelly.com.br/wp-content/uploads/2025/03/Logo-Mubi-Deitado.jpg",
+      url: "https://mubi.com/pt/br",
+    },
+    LOOKE: {
+      logo: "https://downloadr2.apkmirror.com/wp-content/uploads/2018/03/5aaf6e921febe.png",
+      url: "https://www.looke.com.br/landingpage",
     },
   };
 
