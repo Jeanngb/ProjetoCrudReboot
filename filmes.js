@@ -35,147 +35,21 @@ Forrest Gump (1994) - 4.35
 const filmes = [
   {
     id: 1,
-    nome: "Homem-Aranha: Através do Aranhaverso",
+    nome: "Um Sonho de Liberdade",
     sinopse:
-      "Após se reencontrar com Gwen Stacy, o amigável Homem-Aranha da vizinhança, morador do Brooklyn, é catapultado através do Multiverso, onde encontra a Sociedade Aranha, uma equipe de Homens-Aranha encarregada de proteger a própria existência do Multiverso. Mas quando os heróis entram em conflito sobre como lidar com uma nova ameaça, Miles se vê em conflito com os outros Homens-Aranha e precisa seguir sozinho para salvar aqueles que mais ama.",
+      "Preso na década de 1940 pelo duplo homicídio de sua esposa e do amante dela, o íntegro banqueiro Andy Dufresne inicia uma nova vida na prisão de Shawshank, onde utiliza suas habilidades contábeis para trabalhar para um diretor amoral. Durante seu longo período na prisão, Dufresne passa a ser admirado pelos outros detentos – incluindo um prisioneiro mais velho chamado Red – por sua integridade e inabalável senso de esperança.",
     capaPrincipal:
-      "https://a.ltrbxd.com/resized/film-poster/4/9/7/6/3/1/497631-spider-man-across-the-spider-verse-0-1000-0-1500-crop.jpg?v=f2acbf1b8a",
-    capaFundo: "https://www.google.com/url?sa=i&url=https%3A%2F%2Folhardigital.com.br%2F2023%2F04%2F04%2Fcinema-e-streaming%2Fhomem-aranha-trailer-final-de-aranhaverso-2-traz-referencias-do-mcu%2F&psig=AOvVaw00BhV8uu2kLj2lD0JjO8hm&ust=1763073814411000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCMDYu_TX7ZADFQAAAAAdAAAAABAL",
-    anoLancamento: 2023,
-    diretor: "Justin K. Thompson e Kemp Powers",
-    genero: "Ação",
-    nota: 4.4,
-    trailer: "https://www.youtube.com/embed/_4is7I_ZxTg?si=GTWv2BmGFNCHRPnh",
-    streaming: ["NETFLIX"],
-  },
-  {
-    id: 2,
-    nome: "Capitão América: Soldado Invernal",
-    sinopse:
-      "Quando um novo inimigo emerge no conflito entre os Vingadores, Capitão América é forçado a trabalhar com seu antigo aliado Bucky Barnes para descobrir a verdade por trás de uma conspiração que ameaça o mundo.",
-    capaPrincipal:
-      "https://a.ltrbxd.com/resized/sm/upload/he/p6/cc/lg/zt6b493XEL2OQ1bCSKccZ7V0iRY-0-2000-0-3000-crop.jpg?v=6296209106",
-    capaFundo:
-      "https://sm.ign.com/t/ign_br/screenshot/default/captain-america-the-winter-soldier-23_5yqx.1920.jpg",
-    anoLancamento: 2014,
-    diretor: "Anthony e Joe Russo",
-    genero: "Ação",
-    nota: 4.1,
-    trailer: "https://www.youtube.com/embed/CTdvZwwShqM?si=sKbIdLmpcwCKdXLB",
-    streaming: ["GLOBOPLAY"],
-  },
-  {
-    id: 3,
-    nome: "Interestelar",
-    sinopse:
-      "Um grupo de astronautas viaja através de um buraco de minhoca no espaço na tentativa de garantir a sobrevivência da humanidade. Um épico de ficção científica sobre amor, sacrifício e sobrevivência.",
-    capaPrincipal:
-      "https://a.ltrbxd.com/resized/film-poster/1/1/7/6/2/1/117621-interstellar-0-2000-0-3000-crop.jpg?v=7ad89e6666",
-    capaFundo:
-      "https://wallpapers.com/images/hd/interstellar-endurance-on-water-weyznih3sh194a7h.jpg",
-    anoLancamento: 2014,
-    diretor: "Christopher Nolan",
-    genero: "Ficção Científica",
-    nota: 4.7,
-    trailer: "https://www.youtube.com/embed/UpGFBQOrZmQ?si=t0yWurRMRkPics65",
-    streaming: ["NETFLIX"],
-  },
-  {
-    id: 4,
-    nome: "A Origem",
-    sinopse:
-      "Dom Cobb é um ladrão habilidoso, o melhor na arte da extração: roubar segredos valiosos do inconsciente durante o sono. Mas sua habilidade o tornou um fugitivo internacional e lhe custou tudo o que amava. Agora, ele tem uma chance de redenção: implantar uma ideia na mente de alguém — algo considerado impossível.",
-    capaPrincipal:
-      "https://a.ltrbxd.com/resized/sm/upload/sv/95/s9/4j/inception-0-2000-0-3000-crop.jpg?v=30d7224316",
-    capaFundo: "https://cinepop.com.br/wp-content/uploads/2020/01/a-origem.jpg",
-    anoLancamento: 2010,
-    diretor: "Christopher Nolan",
-    genero: "Ação, Ficção Científica",
-    nota: 4.8,
-    trailer: "https://www.youtube.com/embed/YoHD9XEInc0",
+      "https://a.ltrbxd.com/resized/sm/upload/7l/hn/46/uz/zGINvGjdlO6TJRu9wESQvWlOKVT-0-1000-0-1500-crop.jpg?v=8736d1c395",
+    capaFundo: "https://ichef.bbci.co.uk/ace/ws/640/cpsprodpb/637b/live/54b8ecc0-9055-11ef-b11a-eda09aca0cf9.jpg.webp",
+    anoLancamento: 1994,
+    diretor: "Frank Darabont",
+    genero: "Drama",
+    nota: 4.62,
+    trailer: "https://www.youtube.com/embed/PLl99DlL6b4?si=zo_DCD_JyPhI6LbJ",
     streaming: ["MAX"],
   },
   {
-    id: 5,
-    nome: "O Lobo de Wall Street",
-    sinopse:
-      "Baseado em fatos reais, o filme acompanha a ascensão e queda de Jordan Belfort, um corretor de ações ambicioso que constrói um império financeiro com métodos ilegais. Repleto de excessos, manipulação e ambição desenfreada, é uma crítica feroz ao poder e à corrupção do sistema.",
-    capaPrincipal:
-      "https://a.ltrbxd.com/resized/film-poster/8/6/1/1/4/86114-the-wolf-of-wall-street-0-2000-0-3000-crop.jpg?v=a2b958b6f1",
-    capaFundo:
-      "https://forbes.com.br/wp-content/uploads/2018/03/O-Lobo-de-Wall-Street_rep-768x498.jpg",
-    anoLancamento: 2013,
-    diretor: "Martin Scorsese",
-    genero: "Drama, Biografia",
-    nota: 4.6,
-    trailer: "https://www.youtube.com/embed/iszwuX1AK6A",
-    streaming: ["AMAZON"],
-  },
-  {
-    id: 6,
-    nome: "Clube da Luta",
-    sinopse:
-      "Um homem insone e sem propósito conhece Tyler Durden, um vendedor carismático que o introduz a um clube secreto de luta. À medida que o grupo cresce, a linha entre a sanidade e o caos se desfaz, revelando um final chocante sobre identidade e rebeldia moderna.",
-    capaPrincipal:
-      "https://a.ltrbxd.com/resized/film-poster/5/1/5/6/8/51568-fight-club-0-2000-0-3000-crop.jpg?v=768b32dfa4",
-    capaFundo:
-      "https://images.bauerhosting.com/legacy/empire-legacy/uploaded/fight-club-brad-pitt-tyler-durden.jpg?ar=16%3A9&fit=crop&crop=top&auto=format&w=992&q=80",
-    anoLancamento: 1999,
-    diretor: "David Fincher",
-    genero: "Drama, Suspense",
-    nota: 4.9,
-    trailer: "https://www.youtube.com/embed/SUXWAEX2jlg",
-    streaming: ["NETFLIX", "MAX"],
-  },
-  {
-    id: 7,
-    nome: "Gladiador",
-    sinopse:
-      "Maximus, um general romano traído e escravizado, luta por sua liberdade e vingança contra o imperador corrupto que destruiu sua família. Uma história épica de honra, coragem e justiça ambientada na Roma antiga.",
-    capaPrincipal:
-      "https://a.ltrbxd.com/resized/film-poster/5/1/9/5/2/51952-gladiator-2000-0-2000-0-3000-crop.jpg?v=0071a74571",
-    capaFundo: "https://i.ytimg.com/vi/GTXeV2jB8Dk/maxresdefault.jpg",
-    anoLancamento: 2000,
-    diretor: "Ridley Scott",
-    genero: "Ação, Drama Histórico",
-    nota: 4.8,
-    trailer: "https://www.youtube.com/embed/P5ieIbInFpg?si=bzAi56kdAmsHwCHD",
-    streaming: ["AMAZON", "NETFLIX"],
-  },
-  {
-    id: 8,
-    nome: "O Resgate do Soldado Ryan",
-    sinopse:
-      "Durante a Segunda Guerra Mundial, um grupo de soldados recebe a missão de encontrar e trazer de volta o último irmão sobrevivente de uma família. O filme mostra o realismo brutal da guerra e o valor da humanidade em meio ao caos.",
-    capaPrincipal:
-      "https://a.ltrbxd.com/resized/sm/upload/hz/fu/r7/y7/35CMz4t7PuUiQqt5h4u5nbrXZlF-0-2000-0-3000-crop.jpg?v=3a667509e0",
-    capaFundo:
-      "https://aventurasnahistoria.com.br/wp-content/uploads/entretenimento/ryan2.jpg",
-    anoLancamento: 1998,
-    diretor: "Steven Spielberg",
-    genero: "Guerra, Drama",
-    nota: 4.7,
-    trailer: "https://www.youtube.com/embed/zwhP5b4tD6g",
-    streaming: ["NETFLIX", "AMAZON"],
-  },
-  {
-    id: 9,
-    nome: "Avatar",
-    sinopse:
-      "Em Pandora, um ex-fuzileiro paraplégico é enviado para interagir com os Na'vi e acaba dividido entre seguir ordens militares ou proteger o novo mundo que aprendeu a amar. Uma revolução visual sobre natureza, humanidade e espiritualidade.",
-    capaPrincipal:
-      "https://a.ltrbxd.com/resized/sm/upload/1p/mh/li/l2/b7nR3eKeTOwHPKmDLUWunIGasKo-0-2000-0-3000-crop.jpg?v=0bb5ec98ec",
-    capaFundo:
-      "https://m.media-amazon.com/images/S/pv-target-images/16627900db04b76fae3b64266ca161511422059cd24062fb5d900971003a0b70._SX1080_FMjpg_.jpg",
-    anoLancamento: 2009,
-    diretor: "James Cameron",
-    genero: "Ficção Científica, Aventura",
-    nota: 4.5,
-    trailer: "https://www.youtube.com/embed/5PSNL1qE6VY",
-    streaming: ["DISNEY+"],
-  },
-  {
-    id: 10,
+    id: 2,
     nome: "O Poderoso Chefão",
     sinopse:
       "Don Vito Corleone comanda uma das maiores famílias mafiosas de Nova York. Quando uma tentativa de assassinato quase tira sua vida, seu filho Michael é forçado a assumir o império, mergulhando num mundo de poder, lealdade e traição.",
@@ -185,13 +59,202 @@ const filmes = [
       "https://t.ctcdn.com.br/54KHZqjSzhbYDeChIp9RlpWl8-o=/81x215:1263x880/1024x576/smart/i366371.jpeg",
     anoLancamento: 1972,
     diretor: "Francis Ford Coppola",
-    genero: "Drama, Crime",
-    nota: 5.0,
+    genero: "Crime",
+    nota: 4.58,
     trailer: "https://www.youtube.com/embed/88nc6NwAQG4?si=6baBARBkY2Pi16Mr",
     streaming: ["NETFLIX"],
   },
   {
+    id: 3,
+    nome: "O Senhor dos Anéis: O Retorno do Rei",
+    sinopse:
+      "Sauron prepara ataque a Minas Tirith. Gandalf e Pippin partem para ajudar na defesa da capital de Gondor. Enquanto isso, Frodo, Sam e Gollum continuam sua jornada para destruir o Anel na Montanha da Perdição.",
+    capaPrincipal:
+      "https://a.ltrbxd.com/resized/sm/upload/zs/nt/u4/uz/xieWkPAgQrrk5wOyncayPd65hrp-0-1000-0-1500-crop.jpg?v=4c89d05285",
+    capaFundo:
+      "https://wallpapercave.com/wp/wp4119586.jpg",
+    anoLancamento: 2003,
+    diretor: "Peter Jackson",
+    genero: "Ficção Científica",
+    nota: 4.57,
+    trailer: "https://www.youtube.com/embed/r5X-hFf6Bwo?si=EOV6TTAut_5Zm6mS",
+    streaming: ["MAX"],
+  },
+  {
+    id: 4,
+    nome: "12 Homens e uma Sentença",
+    sinopse:
+      "A defesa e a acusação encerraram seus argumentos e o júri está entrando na sala para decidir se um jovem hispano-americano é culpado ou inocente do assassinato de seu pai. O que começa como um caso simples logo se transforma em um pequeno drama, revelando os preconceitos e ideias preconcebidas de cada jurado sobre o julgamento, o acusado e uns sobre os outros.",
+    capaPrincipal:
+      "https://a.ltrbxd.com/resized/film-poster/5/1/7/0/0/51700-12-angry-men-0-1000-0-1500-crop.jpg?v=b8aaf291a9",
+    capaFundo: "https://m.media-amazon.com/images/M/MV5BNGRlZjVhNWMtOTUxYi00MTYxLWEzOWUtMTM1NDc3ZWRjMDZjXkEyXkFqcGdeQWRpZWdtb25n._V1_.jpg",
+    anoLancamento: 1957,
+    diretor: "Sidney Lumet",
+    genero: "Drama",
+    nota: 4.57,
+    trailer: "https://www.youtube.com/embed/TEN-2uTi2c0?si=lapV9AjXCOvXJ5oH",
+    streaming: ["AMAZON"],
+  },
+  {
+    id: 5,
+    nome: "O Poderoso Chefão: Parte 2",
+    sinopse:
+      "Na saga contínua da família criminosa Corleone, o jovem Vito Corleone cresce na Sicília e na Nova York da década de 1910. Na década de 1950, Michael Corleone tenta expandir os negócios da família para Las Vegas, Hollywood e Cuba.",
+    capaPrincipal:
+      "https://a.ltrbxd.com/resized/film-poster/5/1/8/1/6/51816-the-godfather-part-ii-0-1000-0-1500-crop.jpg?v=6a49853f25",
+    capaFundo:
+      "https://substackcdn.com/image/fetch/$s_!6hd2!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F67497347-267d-42f0-b886-24f8fb148e2d_1600x900.jpeg",
+    anoLancamento: 1974,
+    diretor: "Francis Ford Coppola",
+    genero: "Crime",
+    nota: 4.55,
+    trailer: "https://www.youtube.com/embed/9O1Iy9od7-A?si=diLOgvyWjtIbMImJ",
+    streaming: ["NETFLIX"],
+  },
+  {
+    id: 6,
+    nome: "O Cavaleiro das Trevas",
+    sinopse:
+      "Batman eleva a aposta em sua guerra contra o crime. Com a ajuda do Tenente Jim Gordon e do Promotor Público Harvey Dent, Batman parte para desmantelar as organizações criminosas remanescentes que assolam as ruas. A parceria se mostra eficaz, mas logo eles se veem vítimas de um reinado de caos desencadeado por um gênio do crime em ascensão, conhecido pelos cidadãos aterrorizados de Gotham como o Coringa.",
+    capaPrincipal:
+      "https://a.ltrbxd.com/resized/sm/upload/78/y5/zg/ej/oefdD26aey8GPdx7Rm45PNncJdU-0-1000-0-1500-crop.jpg?v=2d0ce4be25",
+    capaFundo:
+      "https://m.media-amazon.com/images/M/MV5BMjA5ODU3NTI0Ml5BMl5BanBnXkFtZTcwODczMTk2Mw@@._V1_QL75_UX513_.jpg",
+    anoLancamento: 2008,
+    diretor: "Christopher Nolan",
+    genero: "Ação",
+    nota: 4.53,
+    trailer: "https://www.youtube.com/embed/EXeTwQWrcwY?si=3d0KX35TMp6c9IB5",
+    streaming: ["MAX"],
+  },
+  {
+    id: 7,
+    nome: "A Lista de Schindler",
+    sinopse:
+      "A história verídica de como o empresário Oskar Schindler salvou mais de mil vidas judaicas dos nazistas enquanto trabalhavam como escravos em sua fábrica durante a Segunda Guerra Mundial.",
+    capaPrincipal:
+      "https://a.ltrbxd.com/resized/sm/upload/bz/1x/em/jr/yPisjyLweCl1tbgwgtzBCNCBle-0-1000-0-1500-crop.jpg?v=ca5215c5a9",
+    capaFundo: "https://bradleyfarless.com/wp-content/uploads/2021/09/a038a-steven-spielberg-moment-schindlers-list.jpg",
+    anoLancamento: 1993,
+    diretor: "Steven Spielberg",
+    genero: "Drama",
+    nota: 4.52,
+    trailer: "https://www.youtube.com/embed/GAf0nGq_FXQ?si=kOEzDze0WG3zJwGe",
+    streaming: ["AMAZON"],
+  },
+  {
+    id: 8,
+    nome: "O Senhor dos Anéis: A Sociedade do Anel",
+    sinopse:
+      "O jovem hobbit Frodo Bolseiro, após herdar um anel misterioso de seu tio Bilbo, precisa deixar sua casa para impedir que ele caia nas mãos de seu criador maligno. Ao longo do caminho, uma sociedade é formada para proteger o portador do anel e garantir que ele chegue ao seu destino final: a Montanha da Perdição, o único lugar onde pode ser destruído.",
+    capaPrincipal:
+      "https://a.ltrbxd.com/resized/sm/upload/3t/vq/0u/m6/1tX9ZlgVvWjAQhMs1vAfsYpi7VK-0-1000-0-1500-crop.jpg?v=30bbb824e1",
+    capaFundo:
+      "https://statcdn.fandango.com/MPX/image/NBCU_Fandango/909/98/thumb_F217C17A-3384-4B24-82F8-4305A4224AB0.jpg",
+    anoLancamento: 2001,
+    diretor: "Peter Jackson",
+    genero: "Ficção Científica",
+    nota: 4.50,
+    trailer: "https://www.youtube.com/embed/V75dMMIW2B4?si=rBBo6JZ8CqUke6uF",
+    streaming: ["MAX"],
+  },
+  {
+    id: 9,
+    nome: "Três Homens em Conflito",
+    sinopse:
+      "Enquanto a Guerra Civil se intensifica entre a União e a Confederação, três homens – um solitário quieto, um assassino implacável e um bandido mexicano – percorrem o sudoeste americano em busca de um cofre contendo US$ 200.000 em ouro roubado.",
+    capaPrincipal:
+      "https://a.ltrbxd.com/resized/film-poster/5/1/6/6/6/51666-the-good-the-bad-and-the-ugly-0-1000-0-1500-crop.jpg?v=9474a84e63",
+    capaFundo:
+      "https://www.cinematheque.qc.ca/cdn-cgi/image/format=auto/workspace/uploads/projections/_oct6_good_bad_ugly_ennio4banner-fr-1701976321.jpg",
+    anoLancamento: 1966,
+    diretor: "Sergio Leone",
+    genero: "Faroeste",
+    nota: 4.50,
+    trailer: "https://www.youtube.com/embed/WCN5JJY_wiA?si=ZEhAhDcPubfAcDi3",
+    streaming: ["AMAZON"],
+  },
+  {
+    id: 10,
+    nome: "O Senhor dos Anéis: As Duas Torres",
+    sinopse:
+      "Após a captura de Merry e Pippy pelos orcs, a Sociedade do Anel é dissolvida. Frodo e Sam seguem sua jornada rumo à Montanha da Perdição para destruir o anel e descobrem que estão sendo perseguidos pelo misterioso Gollum. Enquanto isso, Aragorn, o elfo e arqueiro Legolas e o anão Gimli partem para resgatar os hobbits sequestrados e chegam ao reino de Rohan, onde o rei Theoden foi vítima de uma maldição mortal de Saruman.",
+    capaPrincipal:
+      "https://a.ltrbxd.com/resized/film-poster/5/1/9/2/9/51929-the-lord-of-the-rings-the-two-towers-0-1000-0-1500-crop.jpg?v=9ef6c09783",
+    capaFundo:
+      "https://www.cinematheque.qc.ca/workspace/uploads/projections/the-lord-of-the-rings-the-two-towers-2-fr-1748288473.jpg",
+    anoLancamento: 2002,
+    diretor: "Peter Jackson",
+    genero: "Ficção Científica",
+    nota: 4.47,
+    trailer: "https://www.youtube.com/embed/LbfMDwc4azU?si=I62cMg9XsV-F2UIY",
+    streaming: ["MAX"],
+  },
+  {
     id: 11,
+    nome: "Cidade de Deus",
+    sinopse:
+      "Uma família pobre coreana se infiltra na vida de uma família rica, criando uma rede de mentiras e manipulações. Mas quando o segredo deles é revelado, a tensão explode em uma crítica poderosa sobre desigualdade social.",
+    capaPrincipal:
+      "https://a.ltrbxd.com/resized/film-poster/5/1/5/2/3/51523-city-of-god-0-1000-0-1500-crop.jpg?v=7517ea94ce",
+    capaFundo:
+      "https://cinemarcoblog.net/wp-content/uploads/2023/01/ac5c3-cidadededeus.jpeg",
+    anoLancamento: 2002,
+    diretor: "Fernando Meirelles",
+    genero: "Crime",
+    nota: 4.47,
+    trailer: "https://www.youtube.com/embed/fZJUKixyeXM?si=ag9pX4IpYpDgYAoo",
+    streaming: ["MAX", "NETFLIX"],
+  },
+  {
+    id: 12,
+    nome: "Os Sete Samurais",
+    sinopse:
+      "Um samurai atende ao pedido de proteção de uma aldeia após passar por dificuldades financeiras. A aldeia precisa de proteção contra bandidos, então o samurai reúne outros seis homens para ajudá-lo a ensinar as pessoas a se defenderem, e os aldeões fornecem comida aos soldados.",
+    capaPrincipal:
+      "https://a.ltrbxd.com/resized/sm/upload/ji/5q/0k/rv/v6xrz4fr92KY1oNC3HsEvrsvR1n-0-1000-0-1500-crop.jpg?v=973d70bb0c",
+    capaFundo:
+      "https://m.media-amazon.com/images/M/MV5BMTg5MTc4MTc4M15BMl5BanBnXkFtZTcwNjA5MTU4Mw@@._V1_.jpg",
+    anoLancamento: 1954,
+    diretor: "Akira Kurosawa",
+    genero: "Ação",
+    nota: 4.46,
+    trailer: "https://www.youtube.com/embed/1XMJY0hYJEw?si=VmgQsxFv-QXRnPb8",
+    streaming: ["AMAZON"],
+  },
+  {
+    id: 13,
+    nome: "Star Wars: O Império Contra-Ataca",
+    sinopse:
+      "A saga épica continua enquanto Luke Skywalker, na esperança de derrotar o maligno Império Galáctico, aprende os caminhos Jedi com o mestre Yoda. Mas Darth Vader está mais determinado do que nunca a capturar Luke. Enquanto isso, a líder rebelde Princesa Leia, o arrogante Han Solo, Chewbacca e os dróides C-3PO e R2-D2 enfrentam diversas fases de captura, traição e desespero.",
+    capaPrincipal:
+      "https://a.ltrbxd.com/resized/sm/upload/mp/pz/lf/2i/7BuH8itoSrLExs2YZSsM01Qk2no-0-1000-0-1500-crop.jpg?v=27c6c6fba7",
+    capaFundo:
+      "https://cdn.mos.cms.futurecdn.net/eq9MnZTEMoQ7LWjACSH3sS.jpg",
+    anoLancamento: 1980,
+    diretor: "Irvin Kershner",
+    genero: "Ficção Científica",
+    nota: 4.45,
+    trailer: "https://www.youtube.com/embed/JNwNXF9Y6kY?si=pgxWChf52ya3bndL",
+    streaming: ["DISNEY+"],
+  },
+  {
+    id: 14,
+    nome: "Os Bons Companheiros",
+    sinopse:
+      "A história verídica de Henry Hill, um garoto do Brooklyn, meio irlandês, meio siciliano, que é adotado por gângsteres do bairro ainda jovem e ascende na hierarquia de uma família da máfia sob a tutela de Jimmy Conway.",
+    capaPrincipal:
+      "https://a.ltrbxd.com/resized/film-poster/5/1/3/8/3/51383-goodfellas-0-1000-0-1500-crop.jpg?v=c6c265f228",
+    capaFundo: "https://ichef.bbci.co.uk/ace/ws/640/amz/worldservice/live/assets/images/2015/04/23/150423221239_goodfellas_624x351_alamy.jpg.webp",
+    anoLancamento: 1990,
+    diretor: "Martin Scorsese",
+    genero: "Crime",
+    nota: 4.45,
+    trailer: "https://www.youtube.com/embed/2ilzidi_J8Q?si=SqtabS-O1KMxDFGi",
+    streaming: ["MAX"],
+  },
+  {
+    id: 15,
     nome: "Parasita",
     sinopse:
       "Uma família pobre coreana se infiltra na vida de uma família rica, criando uma rede de mentiras e manipulações. Mas quando o segredo deles é revelado, a tensão explode em uma crítica poderosa sobre desigualdade social.",
@@ -202,28 +265,44 @@ const filmes = [
     anoLancamento: 2019,
     diretor: "Bong Joon-ho",
     genero: "Drama, Suspense",
-    nota: 4.8,
+    nota: 4.40,
     trailer: "https://www.youtube.com/embed/SEUXfv87Wpk",
     streaming: ["AMAZON"],
   },
   {
-    id: 12,
-    nome: "Duna",
+    id: 16,
+    nome: "Interestelar",
     sinopse:
-      "Paul Atreides, um jovem talentoso e destinado a um grande futuro, precisa viajar ao planeta desértico Arrakis, onde a especiaria mais valiosa do universo é disputada entre casas poderosas. Um épico de poder, destino e sobrevivência.",
+      "Um grupo de astronautas viaja através de um buraco de minhoca no espaço na tentativa de garantir a sobrevivência da humanidade. Um épico de ficção científica sobre amor, sacrifício e sobrevivência.",
     capaPrincipal:
-      "https://a.ltrbxd.com/resized/sm/upload/nx/8b/vs/gc/cDbNAY0KM84cxXhmj8f0dLWza3t-0-2000-0-3000-crop.jpg?v=49eed12751",
+      "https://a.ltrbxd.com/resized/film-poster/1/1/7/6/2/1/117621-interstellar-0-2000-0-3000-crop.jpg?v=7ad89e6666",
     capaFundo:
-      "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2024/02/duna.jpg?w=1000",
-    anoLancamento: 2021,
-    diretor: "Denis Villeneuve",
-    genero: "Ficção Científica, Aventura",
-    nota: 4.6,
-    trailer: "https://www.youtube.com/embed/n9xhJrPXop4",
-    streaming: ["MAX", "AMAZON"],
+      "https://wallpapers.com/images/hd/interstellar-endurance-on-water-weyznih3sh194a7h.jpg",
+    anoLancamento: 2014,
+    diretor: "Christopher Nolan",
+    genero: "Ficção Científica",
+    nota: 4.38,
+    trailer: "https://www.youtube.com/embed/UpGFBQOrZmQ?si=t0yWurRMRkPics65",
+    streaming: ["NETFLIX"],
   },
   {
-    id: 13,
+    id: 17,
+    nome: "Clube da Luta",
+    sinopse:
+      "Um homem insone e sem propósito conhece Tyler Durden, um vendedor carismático que o introduz a um clube secreto de luta. À medida que o grupo cresce, a linha entre a sanidade e o caos se desfaz, revelando um final chocante sobre identidade e rebeldia moderna.",
+    capaPrincipal:
+      "https://a.ltrbxd.com/resized/film-poster/5/1/5/6/8/51568-fight-club-0-2000-0-3000-crop.jpg?v=768b32dfa4",
+    capaFundo:
+      "https://images.bauerhosting.com/legacy/empire-legacy/uploaded/fight-club-brad-pitt-tyler-durden.jpg?ar=16%3A9&fit=crop&crop=top&auto=format&w=992&q=80",
+    anoLancamento: 1999,
+    diretor: "David Fincher",
+    genero: "Drama, Suspense",
+    nota: 4.38,
+    trailer: "https://www.youtube.com/embed/SUXWAEX2jlg",
+    streaming: ["NETFLIX", "MAX"],
+  },
+  {
+    id: 18,
     nome: "Whiplash: Em Busca da Perfeição",
     sinopse:
       "Andrew, um jovem baterista, entra para uma das melhores escolas de música dos EUA. Lá, ele enfrenta o professor Fletcher, um instrutor implacável que acredita que a verdadeira grandeza nasce da pressão extrema.",
@@ -234,23 +313,8 @@ const filmes = [
     anoLancamento: 2014,
     diretor: "Damien Chazelle",
     genero: "Drama, Música",
-    nota: 4.9,
+    nota: 4.35,
     trailer: "https://www.youtube.com/embed/7d_jQycdQGo",
     streaming: ["NETFLIX"],
-  },
-  {
-    id: 14,
-    nome: "Homem-Aranha: Sem Volta para Casa",
-    sinopse:
-      "Após sua identidade ser revelada, Peter Parker busca ajuda do Doutor Estranho. Mas um feitiço que dá errado traz vilões de outros universos, colocando em risco o multiverso e testando o verdadeiro significado de ser um herói.",
-    capaPrincipal:
-      "https://a.ltrbxd.com/resized/film-poster/5/6/0/7/8/7/560787-spider-man-no-way-home-0-2000-0-3000-crop.jpg?v=a336d4f40c",
-    capaFundo: "https://t2.tudocdn.net/603750?w=824&h=494",
-    anoLancamento: 2021,
-    diretor: "Jon Watts",
-    genero: "Ação, Super-Herói",
-    nota: 4.5,
-    trailer: "https://www.youtube.com/embed/JfVOs4VSpmA",
-    streaming: ["DISNEY+", "MAX"],
   },
 ];
