@@ -172,7 +172,7 @@ const filmes = [
     genero: "Faroeste",
     nota: 4.50,
     trailer: "https://www.youtube.com/embed/WCN5JJY_wiA?si=ZEhAhDcPubfAcDi3",
-    streaming: ["AMAZON"],
+    streaming: ["MUBI", "LOOKE"],
   },
   {
     id: 10,
@@ -312,7 +312,7 @@ const filmes = [
     genero: "Drama, Suspense",
     nota: 4.40,
     trailer: "https://www.youtube.com/embed/SEUXfv87Wpk",
-    streaming: ["AMAZON"],
+    streaming: ["MAX"],
   },
   {
     id: 19,
@@ -440,7 +440,7 @@ const filmes = [
     genero: "Natal, Drama",
     nota: 4.37,
     trailer: "https://www.youtube.com/embed/iLR3gZrU2Xo?si=hBNgIrpdF4LWfto8",
-    streaming: ["AMAZON"],
+    streaming: ["LOOKE"],
   },
   {
     id: 27,
