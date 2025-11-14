@@ -1,37 +1,3 @@
-/*RANKING:
-
-The Shawshank Redemption (1994) - 4.62
-The Godfather (1972) - 4.58
-The Lord of the Rings: The Return of the King (2003) - 4.57
-12 Angry Men (1957) - 4.57
-The Godfather: Part II (1974) - 4.55
-The Dark Knight (2008) - 4.53
-Schindler’s List (1993) - 4.52
-The Lord of the Rings: The Fellowship of the Ring (2001) - 4.50
-The Good, the Bad and the Ugly (1966) - 4.50
-The Lord of the Rings: The Two Towers (2002) - 4.47
-City of God (2002) - 4.47
-Seven Samurai (1954) - 4.46
-The Empire Strikes Back (1980) - 4.45
-Goodfellas (1990) - 4.45
-Grave of the Fireflies (1989) - 4.41
-Harakiri (1962) - 4.41
-Come and See (1987) - 4.41
-Parasite (2019) - 4.40
-Interstellar (2014) - 4.38
-Terminator 2: Judgment Day (1991) - 4.38
-Fight Club (1999) - 4.38
-Spirited Away (2001) - 4.38
-One Flew Over the Cuckoo’s Nest (1975) - 4.38
-Cinema Paradiso (1990) - 4.38
-The Pianist (2002) - 4.37
-It’s a Wonderful Life (1946) - 4.37
-Pulp Fiction (1994) - 4.36
-Ikiru (1956) - 4.36
-Whiplash (2014) - 4.35
-Forrest Gump (1994) - 4.35
-*/
-// Base de dados com todos os filmes
 const filmes = [
   {
     id: 1,
@@ -697,5 +663,101 @@ const filmes = [
     nota: 4.30,
     trailer: "https://www.youtube.com/embed/cqGjhVJWtEg?si=rG7lbrUGhReEgADA",
     streaming: ["AMAZON"],
+  },
+  {
+    id: 43,
+    nome: "Os Infiltrados",
+    sinopse:
+      "Para desmantelar a máfia irlandesa de South Boston, a polícia envia um de seus agentes para se infiltrar no submundo, sem saber que o sindicato também fez o mesmo. Enquanto um policial disfarçado busca a simpatia do chefão da máfia, um criminoso de carreira ascende na hierarquia policial. Mas ambos os lados logo descobrem que há um infiltrado entre eles.",
+    capaPrincipal:
+      "https://a.ltrbxd.com/resized/sm/upload/jr/th/pu/pb/laefkgrfa3oKwvBtWTBtf2suiI4-0-1000-0-1500-crop.jpg?v=f5d8231026",
+    capaFundo:
+      "https://m.media-amazon.com/images/S/pv-target-images/67e9a5eac1c8fbc1e8824eced53227e7f442fed5f7b1a8f66ece03709ab7702c._SX1080_FMjpg_.jpg",
+    anoLancamento: 2006,
+    diretor: "Martin Scorsese",
+    genero: "Crime, Ação",
+    nota: 4.30,
+    trailer: "https://www.youtube.com/embed/r-MiSNsCdQ4?si=pEa8plP6bYrFGXI7",
+    streaming: ["AMAZON"],
+  },
+  {
+    id: 44,
+    nome: "Casablanca",
+    sinopse:
+      "Em Casablanca, Marrocos, dezembro de 1941, um expatriado americano cínico reencontra uma antiga paixão, com complicações imprevistas.",
+    capaPrincipal:
+      "https://a.ltrbxd.com/resized/sm/upload/kq/vf/8s/1p/wOBKAoUJZb5qTsWv5XXvVV2vUzz-0-1000-0-1500-crop.jpg?v=cdb9b25970",
+    capaFundo:
+      "https://assets.mubicdn.net/images/film/164/image-w856.jpg?1745489494",
+    anoLancamento: 1942,
+    diretor: "Michael Curtiz",
+    genero: "Romance, Drama",
+    nota: 4.30,
+    trailer: "https://www.youtube.com/embed/MF7JH_54d8c?si=J-HCHb2jKWz3voHU",
+    streaming: ["MAX"],
+  },
+  {
+    id: 45,
+    nome: "Ainda Estou Aqui",
+    sinopse:
+      "Uma mulher casada com um ex-político durante a ditadura militar brasileira de 1971 é forçada a se reinventar e traçar um novo rumo para sua família após um ato violento e arbitrário.",
+    capaPrincipal:
+      "https://a.ltrbxd.com/resized/film-poster/9/0/1/6/7/1/901671-im-still-here-2024-0-1000-0-1500-crop.jpg?v=62be7ea503",
+    capaFundo:
+      "https://s2-oglobo.glbimg.com/jonyOF5_L14K799secPmmIN-Gv4=/0x0:4096x2304/924x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2024/d/N/wPnftRTzAmz0RuaRrI9Q/ainda-estou-aqui-01.jpg",
+    anoLancamento: 2024,
+    diretor: "Walter Salles",
+    genero: "Drama",
+    nota: 4.30,
+    trailer: "https://www.youtube.com/embed/_NzqP0jmk3o?si=6MJ922xVXvGHS161",
+    streaming: ["GLOBOPLAY"],
+  },
+  {
+    id: 46,
+    nome: "Ran",
+    sinopse:
+      "A obra Rei Lear, de Shakespeare, é reinventada como uma epopeia histórica singular, ambientada no Japão do século XVI, onde um senhor da guerra idoso divide seu reino entre seus três filhos.",
+    capaPrincipal:
+      "https://a.ltrbxd.com/resized/sm/upload/h6/yo/p7/1t/ran-0-1000-0-1500-crop.jpg?v=3cabb176dc",
+    capaFundo:
+      "https://m.media-amazon.com/images/S/pv-target-images/3598ab79318194ecf9fba65df9869c52ce9d9b72d1386dd3ee1d6d180234f06b._SX1080_FMjpg_.jpg",
+    anoLancamento: 1985,
+    diretor: "Akira Kurosawa",
+    genero: "Guerra, Drama",
+    nota: 4.30,
+    trailer: "https://www.youtube.com/embed/p2b60AwAOeA?si=2UcY0xv5d_PYfTK-",
+    streaming: ["AMAZON"],
+  },
+  {
+    id: 47,
+    nome: "Cantando na Chuva",
+    sinopse:
+      "Em Hollywood, 1927, uma estrela do cinema mudo se apaixona por uma corista justamente quando ele e sua parceira de cena paranoica lutam para fazer a difícil transição para os filmes falados.",
+    capaPrincipal:
+      "https://a.ltrbxd.com/resized/sm/upload/xc/8e/3x/nt/nUP6Kna8oiUl2VNbEQ4BJhTcpO8-0-1000-0-1500-crop.jpg?v=2c7de99ac3",
+    capaFundo:
+      "https://flipscreened.com/wp-content/uploads/2019/11/singin-in-the-rain-di.jpg?w=1024",
+    anoLancamento: 1952,
+    diretor: "Stanley Donen e Gene Kelly",
+    genero: "Musical",
+    nota: 4.28,
+    trailer: "https://www.youtube.com/embed/lSE8sl2-PZg?si=bCKJvyf8zKFztEIF",
+    streaming: ["MAX"],
+  },
+  {
+    id: 48,
+    nome: "A Vida É Bela",
+    sinopse:
+      "Uma comovente história sobre um livreiro italiano de ascendência judaica que vive em seu próprio conto de fadas. Sua vida criativa e feliz chega a um fim abrupto quando toda a sua família é deportada para um campo de concentração durante a Segunda Guerra Mundial. Enquanto está preso, ele tenta convencer seu filho de que tudo não passa de uma brincadeira.",
+    capaPrincipal:
+      "https://a.ltrbxd.com/resized/film-poster/5/1/4/8/7/51487-life-is-beautiful-0-1000-0-1500-crop.jpg?v=90ed0e667e",
+    capaFundo:
+      "https://www.miramax.com/assets/life_beautiful_ks_06_000008_lg.jpg",
+    anoLancamento: 1997,
+    diretor: "Roberto Benigni",
+    genero: "Drama, Romance",
+    nota: 4.28,
+    trailer: "https://www.youtube.com/embed/pAYEQP8gx3w?si=qRPVajNKFnQNv1Mj",
+    streaming: ["NETFLIX"],
   },
 ];
