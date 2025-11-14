@@ -506,4 +506,196 @@ const filmes = [
     trailer: "https://www.youtube.com/embed/bLvqoHBptjg?si=5d6YEbZNjGmtI36d",
     streaming: ["NETFLIX"],
   },
+  {
+    id: 31,
+    nome: "Homem-Aranha no Aranhaverso",
+    sinopse:
+      "Lutando para encontrar seu lugar no mundo enquanto concilia escola e família, o adolescente do Brooklyn, Miles Morales, é inesperadamente picado por uma aranha radioativa e desenvolve poderes inimagináveis, assim como o único e inigualável Homem-Aranha. Enquanto lida com as implicações de suas novas habilidades, Miles descobre um supercolisor criado pelo lunático Wilson Fisk, fazendo com que outros seres de todo o Aranhaverso sejam transportados inadvertidamente para sua dimensão.",
+    capaPrincipal:
+      "https://a.ltrbxd.com/resized/film-poster/2/5/1/9/4/3/251943-spider-man-into-the-spider-verse-0-1000-0-1500-crop.jpg?v=538fe0ada6",
+    capaFundo:
+      "https://www.deusnogibi.com.br/site/wp-content/uploads/2019/01/KPAYADDARANHAVERSO.jpg",
+    anoLancamento: 2018,
+    diretor: "Bob Persichetti e Peter Ramsey",
+    genero: "Animação, Aventura, Ficção Científica",
+    nota: 4.33,
+    trailer: "https://www.youtube.com/embed/g4Hbz2jLxvQ?si=A6Ty28ZMHP-hbvol",
+    streaming: ["NETFLIX", "AMAZON"],
+  },
+  {
+    id: 32,
+    nome: "Matrix",
+    sinopse:
+      "Ambientado no século XXII, Matrix conta a história de um hacker de computador que se junta a um grupo de insurgentes clandestinos que lutam contra os vastos e poderosos computadores que agora dominam a Terra.",
+    capaPrincipal:
+      "https://a.ltrbxd.com/resized/film-poster/5/1/5/1/8/51518-the-matrix-0-1000-0-1500-crop.jpg?v=fc7c366afe",
+    capaFundo:
+      "https://preview.redd.it/pls221b8pyo31.png?width=640&crop=smart&auto=webp&s=d36c158eb31837251b8371823fc7ed78465c942f",
+    anoLancamento: 1999,
+    diretor: "Lana Wachowski e Lilly Wachowski",
+    genero: "Ficção Científica, Ação",
+    nota: 4.33,
+    trailer: "https://www.youtube.com/embed/vKQi3bBA1y8?si=2vG_rHRWGPD1O48c",
+    streaming: ["MAX"],
+  },
+  {
+    id: 33,
+    nome: "A Origem",
+    sinopse:
+      "Cobb, um ladrão habilidoso que pratica espionagem corporativa infiltrando-se no subconsciente de seus alvos, recebe a chance de recuperar sua antiga vida como pagamento por uma tarefa considerada impossível: a incepção, a implantação da ideia de outra pessoa no subconsciente de um alvo.",
+    capaPrincipal:
+      "https://a.ltrbxd.com/resized/sm/upload/sv/95/s9/4j/inception-0-1000-0-1500-crop.jpg?v=30d7224316",
+    capaFundo:
+      "https://m.media-amazon.com/images/S/pv-target-images/52165fc29179315305689ab0e8c136b466d2b9f594f47862dda383c0900a2f42._SX1080_FMjpg_.jpg",
+    anoLancamento: 2010,
+    diretor: "Christopher Nolan",
+    genero: "Ficção Científica, Ação",
+    nota: 4.33,
+    trailer: "https://www.youtube.com/embed/YoHD9XEInc0?si=FdfZI8U91FyR-ut9",
+    streaming: ["MAX"],
+  },
+  {
+    id: 34,
+    nome: "Se7en",
+    sinopse:
+      "Neste filme sombrio e perturbador, dois detetives de homicídios embarcam numa busca desesperada por um assassino em série cujos crimes são baseados nos sete pecados capitais, levando o espectador dos restos mortais torturados de uma vítima à seguinte. O experiente Detetive Somerset pesquisa cada pecado na tentativa de compreender a mente do assassino, enquanto seu parceiro novato, Mills, zomba de seus esforços para desvendar o caso.",
+    capaPrincipal:
+      "https://a.ltrbxd.com/resized/film-poster/5/1/3/4/5/51345-se7en-0-1000-0-1500-crop.jpg?v=76a14ef6b4",
+    capaFundo:
+      "https://veja.abril.com.br/wp-content/uploads/2025/01/seven.webp?resize=1080,565&crop=1",
+    anoLancamento: 1995,
+    diretor: "David Fincher",
+    genero: "Crime, Ação, Suspense",
+    nota: 4.33,
+    trailer: "https://www.youtube.com/embed/dGzGUQ2CDzQ?si=LRTdkQ0X7a18gPPT",
+    streaming: ["MAX"],
+  },
+  {
+    id: 35,
+    nome: "O Silêncio dos Inocentes",
+    sinopse:
+      "Clarice Starling é uma aluna exemplar na academia de treinamento do FBI. Jack Crawford quer que Clarice entreviste o Dr. Hannibal Lecter, um psiquiatra brilhante e psicopata violento, que cumpre pena de prisão perpétua por diversos assassinatos e canibalismo. Crawford acredita que Lecter possa ter informações importantes sobre um caso e que Starling, por ser uma jovem atraente, pode ser a isca perfeita para atraí-lo.",
+    capaPrincipal:
+      "https://a.ltrbxd.com/resized/film-poster/5/1/7/8/2/51782-the-silence-of-the-lambs-0-1000-0-1500-crop.jpg?v=18d88bdff4",
+    capaFundo:
+      "https://i0.wp.com/plotandtheme.com/wp-content/uploads/2017/02/silence11.jpg?fit=1020%2C576&ssl=1",
+    anoLancamento: 1991,
+    diretor: "Jonathan Demme",
+    genero: "Ficção Científica, Ação",
+    nota: 4.33,
+    trailer: "https://www.youtube.com/embed/6iB21hsprAQ?si=aUrs39nLY2Ut9Lfx",
+    streaming: ["AMAZON", "MUBI"],
+  },
+  {
+    id: 36,
+    nome: "Alien",
+    sinopse:
+      "Durante seu retorno à Terra, a nave comercial Nostromo intercepta um sinal de socorro vindo de um planeta distante. Quando uma equipe de três tripulantes descobre uma câmara contendo milhares de ovos no planeta, uma criatura dentro de um dos ovos ataca um dos exploradores. Toda a tripulação desconhece o pesadelo iminente que se abaterá sobre eles quando o parasita alienígena implantado em seu infeliz hospedeiro eclodir.",
+    capaPrincipal:
+      "https://a.ltrbxd.com/resized/sm/upload/8v/f1/qw/aa/bg7K6VtUG7Ew70gQj6SSroD5d4R-0-1000-0-1500-crop.jpg?v=a932f9e98e",
+    capaFundo:
+      "https://filmotomy.com/wp-content/uploads/2019/07/PhotoPictureResizer_190719_094837776_crop_1200x600.jpg",
+    anoLancamento: 1979,
+    diretor: "Ridley Scott",
+    genero: "Ficção Científica, Suspense",
+    nota: 4.33,
+    trailer: "https://www.youtube.com/embed/jQ5lPt9edzQ?si=GVDOkLRbGDe0ch2r",
+    streaming: ["DISNEY+"],
+  },
+  {
+    id: 37,
+    nome: "Sangue Negro",
+    sinopse:
+      "Daniel Plainview, um minerador de prata implacável que se tornou prospector de petróleo, muda-se para a Califórnia, rica em petróleo. Usando seu filho para projetar uma imagem de homem de família confiável, Plainview engana proprietários de terras locais para que lhe vendam suas valiosas propriedades por uma ninharia. No entanto, o pregador local Eli Sunday suspeita dos motivos e intenções de Plainview, dando início a uma rivalidade crescente que ameaça a vida de ambos.",
+    capaPrincipal:
+      "https://a.ltrbxd.com/resized/sm/upload/jg/cd/7y/f5/there%20will%20be%20blood-0-1000-0-1500-crop.jpg?v=8a533d5350",
+    capaFundo:
+      "https://benjweinberg.com/wp-content/uploads/2018/02/there-will-be-blood.jpg?w=1200",
+    anoLancamento: 2007,
+    diretor: "Paul Thomas Anderson",
+    genero: "Drama",
+    nota: 4.33,
+    trailer: "https://www.youtube.com/embed/FeSLPELpMeM?si=3h7fg90h1nbyRDU4",
+    streaming: ["AMAZON"],
+  },
+  {
+    id: 38,
+    nome: "Psicose",
+    sinopse:
+      "Quando a corretora de imóveis ladra Marion Crane foge com um maço de dinheiro e a esperança de começar uma nova vida, ela acaba no infame Bates Motel, onde o gerente Norman Bates cuida de sua mãe acamada.",
+    capaPrincipal:
+      "https://a.ltrbxd.com/resized/film-poster/5/1/5/7/8/51578-psycho-0-1000-0-1500-crop.jpg?v=7250c49dcd",
+    capaFundo:
+      "https://images.mubicdn.net/images/film/148/cache-47486-1745490946/image-w1280.jpg",
+    anoLancamento: 1960,
+    diretor: "Alfred Hitchcock",
+    genero: "Suspense, Terror",
+    nota: 4.33,
+    trailer: "https://www.youtube.com/embed/BwVKSGu8wEA?si=RBd-F1c7jf5_iXnD",
+    streaming: ["GLOBOPLAY"],
+  },
+  {
+    id: 39,
+    nome: "Princesa Mononoke",
+    sinopse:
+      "Ashitaka, um príncipe do povo Emishi, que está desaparecendo, é amaldiçoado por um deus javali demonizado e precisa viajar para o oeste em busca de uma cura. Ao longo do caminho, ele encontra San, uma jovem humana que luta para proteger a floresta, e Lady Eboshi, que tenta destruí-la. Ashitaka precisa encontrar uma maneira de equilibrar esse conflito.",
+    capaPrincipal:
+      "https://a.ltrbxd.com/resized/sm/upload/fu/5h/fp/mj/mNqZOtJIQfFQPjo3hmYLIn8Qqhf-0-1000-0-1500-crop.jpg?v=aae03975f7",
+    capaFundo:
+      "https://spinningplatters.com/wp-content/uploads/2025/04/image0-4-1200x673.jpeg",
+    anoLancamento: 1997,
+    diretor: "Hayao Miyazaki",
+    genero: "Animação, Fantasia, Aventura",
+    nota: 4.33,
+    trailer: "https://www.youtube.com/embed/4OiMOHRDs14?si=xCvVdwwoD4cpO0zb",
+    streaming: ["NETFLIX"],
+  },
+  {
+    id: 40,
+    nome: "À Espera de um Milagre",
+    sinopse:
+      "Uma história sobrenatural ambientada no corredor da morte de uma prisão no sul dos Estados Unidos, onde o gigante gentil John Coffey possui o misterioso poder de curar as doenças das pessoas. Quando o chefe da guarda do bloco de celas, Paul Edgecomb, reconhece o dom milagroso de Coffey, ele tenta desesperadamente impedir a execução do condenado.",
+    capaPrincipal:
+      "https://a.ltrbxd.com/resized/film-poster/5/1/6/1/3/51613-the-green-mile-0-1000-0-1500-crop.jpg?v=fff3d0bd1f",
+    capaFundo:
+      "https://www.srf.ch/static/cms/images/960w/e0f410.jpg",
+    anoLancamento: 1999,
+    diretor: "Frank Darabont",
+    genero: "Drama",
+    nota: 4.31,
+    trailer: "https://www.youtube.com/embed/Bg7epsq0OIQ?si=J_FUUaGWBDNTgcdZ",
+    streaming: ["MAX"],
+  },
+  {
+    id: 41,
+    nome: "O Resgate do Soldado Ryan",
+    sinopse:
+      "Enquanto as tropas americanas invadem as praias da Normandia, três irmãos jazem mortos no campo de batalha, e um quarto está preso atrás das linhas inimigas. O capitão dos Rangers, John Miller, e sete homens recebem a missão de penetrar em território ocupado pelos alemães e resgatar o menino.",
+    capaPrincipal:
+      "https://a.ltrbxd.com/resized/sm/upload/hz/fu/r7/y7/35CMz4t7PuUiQqt5h4u5nbrXZlF-0-1000-0-1500-crop.jpg?v=3a667509e0",
+    capaFundo:
+      "https://www.intofilm.org/intofilm-production/scaledcropped/970x546https%3A/s3-eu-west-1.amazonaws.com/images.cdn.filmclub.org/film__2925-saving-private-ryan--hi_res-67979936.jpg/film__2925-saving-private-ryan--hi_res-67979936.jpg",
+    anoLancamento: 1998,
+    diretor: "Steven Spielberg",
+    genero: "Guerra, Drama",
+    nota: 4.31,
+    trailer: "https://www.youtube.com/embed/9CiW_DgxCnQ?si=zGvUVUo1930kR4Ze",
+    streaming: ["PARAMOUNT+"],
+  },
+  {
+    id: 42,
+    nome: "Homem-Aranha: Através do Aranhaverso",
+    sinopse:
+      "Após se reencontrar com Gwen Stacy, o amigável Homem-Aranha da vizinhança, morador do Brooklyn, é catapultado através do Multiverso, onde encontra a Sociedade Aranha, uma equipe de Homens-Aranha encarregada de proteger a própria existência do Multiverso. Mas quando os heróis entram em conflito sobre como lidar com uma nova ameaça, Miles se vê em conflito com os outros Homens-Aranha e precisa seguir sozinho para salvar aqueles que mais ama.",
+    capaPrincipal:
+      "https://a.ltrbxd.com/resized/film-poster/4/9/7/6/3/1/497631-spider-man-across-the-spider-verse-0-1000-0-1500-crop.jpg?v=f2acbf1b8a",
+    capaFundo:
+      "https://m.media-amazon.com/images/S/pv-target-images/3c7c45988ed34fe4628aed9d51507061434432482279e1b69f8fd11ced6869bf._SX1080_FMjpg_.jpg",
+    anoLancamento: 2023,
+    diretor: "Justin K. Thompson e Kemp Powers",
+    genero: "Animação, Aventura, Ficção Científica",
+    nota: 4.30,
+    trailer: "https://www.youtube.com/embed/cqGjhVJWtEg?si=rG7lbrUGhReEgADA",
+    streaming: ["AMAZON"],
+  },
 ];
