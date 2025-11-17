@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Painel do Administrador</title>
+</head>
+<body>
+  <h1>Painel do Administrador</h1>
+  <p>Bem-vindo ao painel! Aqui o admin pode gerenciar os filmes e usuários.</p>
+
+  <button id="logout">Sair</button>
+
+  <script>
+    document.getElementById('logout').addEventListener('click', () => {
+        localStorage.removeItem('usuarioLogado');
+        window.location.href = '../Login/Login.html';
+    });
+  </script>
+</body>
+</html>
