@@ -1,24 +1,29 @@
 document.getElementById('cadastroForm').addEventListener('submit', function(e) {
-    e.preventDefault(); // Impede o envio do formulário
+    e.preventDefault();
 
-    // Pegando os valores dos inputs
     const usuario = document.getElementById('usuario').value;
     const email = document.getElementById('email').value;
     const senha = document.getElementById('senha').value;
 
-    // Validação simples (poderia ser mais robusta)
     if (!usuario || !email || !senha) {
         alert('Todos os campos são obrigatórios!');
         return;
     }
 
-    // Criando um objeto com as informações do usuário
-    const novoUsuario = { usuario, email, senha };
+    const usuarios = JSON.parse(localStorage.getItem('usuarios')) || [];
 
-    // Salvando no LocalStorage (como string JSON)
-    localStorage.setItem('usuario', JSON.stringify(novoUsuario));
+    // Verifica se o email já está cadastrado
+    if (usuarios.some(u => u.email === email)) {
+        alert('Este email já está cadastrado!');
+        return;
+    }
 
-    // Redirecionando para a página de login após cadastro
+    // Cria objeto do novo usuário (sempre tipo cliente)
+    const novoUsuario = { usuario, email, senha, tipoConta: 'cliente' };
+
+    usuarios.push(novoUsuario);
+    localStorage.setItem('usuarios', JSON.stringify(usuarios));
+
     alert('Cadastro realizado com sucesso!');
-    window.location.href = '../Login/Login.html'; // Redireciona para a página de login
+    window.location.href = '../Login/Login.html';
 });
