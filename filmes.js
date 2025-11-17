@@ -9,6 +9,7 @@ const filmes = [
     capaFundo: "https://ichef.bbci.co.uk/ace/ws/640/cpsprodpb/637b/live/54b8ecc0-9055-11ef-b11a-eda09aca0cf9.jpg.webp",
     anoLancamento: 1994,
     diretor: "Frank Darabont",
+    atoresPrincipais: "Tim Robbins, Morgan Freeman, Bob Gunton, William Sadler",
     genero: "Drama",
     nota: 4.62,
     trailer: "https://www.youtube.com/embed/PLl99DlL6b4?si=zo_DCD_JyPhI6LbJ",
