@@ -70,6 +70,11 @@ function carregarFilme(idFilme) {
   if (diretorEl)
     diretorEl.innerHTML = `<strong>Diretor: </strong> ${filme.diretor || ""}`;
 
+  // Atualizar elenco principal
+  const atoresEl = document.querySelector(".atoresPrincipais");
+  if (atoresEl)
+    atoresEl.innerHTML = `<strong>Atores Principais: </strong> ${filme.atoresPrincipais || ""}`;
+  
   // Atualizar ano de lançamento
   const anoEl = document.querySelector(".anoLancamento");
   if (anoEl)
