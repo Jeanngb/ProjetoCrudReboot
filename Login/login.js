@@ -32,5 +32,5 @@ document.getElementById('loginForm').addEventListener('submit', function(e) {
 
     localStorage.setItem('usuarioLogado', JSON.stringify(usuarioEncontrado));
     alert(`Bem-vindo, ${usuarioEncontrado.usuario}!`);
-    window.location.href = '../Interface Do Site/InterfaceDoSite.html';
+    window.location.href = '../index.html';
 });
