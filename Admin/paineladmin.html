@@ -1,20 +1,37 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <title>Painel do Administrador</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel de Administração - Filmes</title>
+    <link rel="stylesheet" href="paineladmin.css">
 </head>
 <body>
-  <h1>Painel do Administrador</h1>
-  <p>Bem-vindo ao painel! Aqui o admin pode gerenciar os filmes e usuários.</p>
+    <div class="container">
+        <h1>Painel de Administração</h1>
+        
+        <!-- Formulário para adicionar um novo filme -->
+        <div class="formulario">
+            <h2>Adicionar Filme</h2>
+            <form id="formFilme">
+                <input type="text" id="nome" placeholder="Nome do Filme" required>
+                <input type="text" id="diretor" placeholder="Diretor" required>
+                <input type="number" id="ano" placeholder="Ano de Lançamento" required>
+                <input type="url" id="capaPrincipal" placeholder="URL da Capa Principal" required>
+                <textarea id="sinopse" placeholder="Sinopse" required></textarea>
+                <button type="submit">Adicionar Filme</button>
+            </form>
+        </div>
 
-  <button id="logout">Sair</button>
+        <!-- Lista de Filmes Cadastrados -->
+        <div class="lista-filmes">
+            <h2>Filmes Cadastrados</h2>
+            <ul id="listaFilmes">
+                <!-- Aqui os filmes serão listados via JavaScript -->
+            </ul>
+        </div>
+    </div>
 
-  <script>
-    document.getElementById('logout').addEventListener('click', () => {
-        localStorage.removeItem('usuarioLogado');
-        window.location.href = '../Login/Login.html';
-    });
-  </script>
+    <script src="paineladmin.js"></script>
 </body>
 </html>
