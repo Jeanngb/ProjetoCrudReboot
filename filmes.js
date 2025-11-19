@@ -43,7 +43,7 @@ const filmes = [
       "https://wallpapercave.com/wp/wp4119586.jpg",
     anoLancamento: 2003,
     diretor: "Peter Jackson",
-    atoresPrincipais:"Elijah Wood, Sean Astin, Karl Urban, Andy Serkis, Ian Mckellen, liv Tyler", 
+    atoresPrincipais: "Elijah Wood, Sean Astin, Karl Urban, Andy Serkis, Ian Mckellen, liv Tyler", 
     genero: "Ficção Científica",
     nota: 4.57,
     trailer: "https://www.youtube.com/embed/r5X-hFf6Bwo?si=EOV6TTAut_5Zm6mS",
