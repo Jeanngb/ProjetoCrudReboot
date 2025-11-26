@@ -12,14 +12,18 @@
         
         <!-- Formulário para adicionar um novo filme -->
         <div class="formulario">
-            <h2>Adicionar Filme</h2>
+            <h2>Adicionar/Editar Filme</h2>
             <form id="formFilme">
                 <input type="text" id="nome" placeholder="Nome do Filme" required>
                 <input type="text" id="diretor" placeholder="Diretor" required>
+                <input type="text" id="atoresPrincipais" placeholder="Atores Principais" required>
+                <input type="text" id="streaming" placeholder="Streaming" required>
                 <input type="number" id="ano" placeholder="Ano de Lançamento" required>
                 <input type="url" id="capaPrincipal" placeholder="URL da Capa Principal" required>
+                <input type="url" id="capaFundo" placeholder="URL da Capa de Fundo" required>
+                <input type="url" id="trailer" placeholder="URL do Trailer do YouTube" required>
                 <textarea id="sinopse" placeholder="Sinopse" required></textarea>
-                <button type="submit">Adicionar Filme</button>
+                <button type="submit">Salvar Filme</button>
             </form>
         </div>
 
