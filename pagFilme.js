@@ -39,7 +39,7 @@ function carregarFilme(idFilme) {
       url: "https://mubi.com/pt/br",
     },
     LOOKE: {
-      logo: "https://downloadr2.apkmirror.com/wp-content/uploads/2018/03/5aaf6e921febe.png",
+      logo: "https://t.ctcdn.com.br/9jt7cWf3ZdHORz4CdJ5rkEFtkys=/0x211:959x752/959x539/smart/i377969.png",
       url: "https://www.looke.com.br/landingpage",
     },
   };
