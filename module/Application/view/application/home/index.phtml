@@ -1,0 +1,102 @@
+<?php
+$this->headTitle('LocMovies - Catálogo de Filmes');
+$this->headLink()->appendStylesheet($this->basePath('/css/index.css'));
+?>
+
+<!--
+    View: application/home/index.phtml
+    Lista de filmes paginada. Cada card usa link direto para detalhes.
+    A navegação foi projetada para ser instantânea; os dados de detalhes
+    são carregados em background na página de detalhes.
+-->
+    <h2 class="titulo-secao">Disponíveis (<?= $totalFilmes ?> filmes)</h2>
+    <div class="grid-filmes">
+        <?php if (!empty($filmes)): ?>
+                <?php foreach ($filmes as $filme): ?>
+                <div class="card-filme" data-href="<?= $this->url('filme', ['action' => 'detalhes']) ?>?id=<?= $filme['id'] ?>">
+                    <img src="<?= $this->escapeHtmlAttr($filme['capaPrincipal']) ?>" alt="<?= $this->escapeHtml($filme['nome']) ?>" />
+                    <div class="info-filme">
+                        <h3><?= $this->escapeHtml($filme['nome']) ?></h3>
+                        <p><?= $this->escapeHtml($filme['anoLancamento']) ?></p>
+                        <div class="nota-filme">⭐ <?= $this->escapeHtml($filme['nota']) ?></div>
+                    </div>
+                </div>
+                
+            <?php endforeach; ?>
+        <?php else: ?>
+            <p>Nenhum filme cadastrado ainda.</p>
+        <?php endif; ?>
+    </div>
+
+    <!-- Includes JS (incluir uma vez apenas) -->
+    <script src="<?= $this->basePath('/js/protect-filme.js') ?>"></script>
+    <script src="<?= $this->basePath('/js/home-refresh.js') ?>"></script>
+
+    <!-- Paginação -->
+    <?php if ($totalPages > 1): ?>
+    <div class="pagination" style="text-align: center; margin-top: 30px; padding: 20px;">
+        <style>
+            .pagination a, .pagination span {
+                display: inline-block;
+                padding: 10px 12px;
+                margin: 0 4px;
+                border: 1px solid #ddd;
+                border-radius: 4px;
+                text-decoration: none;
+                color: #333;
+                background: #f9f9f9;
+                transition: all 0.2s ease;
+            }
+            .pagination a:hover {
+                background: #4a90e2;
+                color: white;
+                border-color: #4a90e2;
+            }
+            .pagination .active {
+                background: #4a90e2;
+                color: white;
+                border-color: #4a90e2;
+            }
+            .pagination .disabled {
+                opacity: 0.5;
+                cursor: not-allowed;
+            }
+            .pagination-info {
+                margin-bottom: 15px;
+                color: #666;
+                font-size: 0.9rem;
+            }
+        </style>
+        
+        <div class="pagination-info">
+            Mostrando página <?= $currentPage ?> de <?= $totalPages ?>
+            (<?= count($filmes) ?> filmes nesta página)
+        </div>
+
+        <div>
+            <!-- Botão "Anterior" -->
+            <?php if ($currentPage > 1): ?>
+                <a href="?page=<?= $currentPage - 1 ?>">← Anterior</a>
+            <?php else: ?>
+                <span class="disabled">← Anterior</span>
+            <?php endif; ?>
+
+            <!-- Números de página -->
+            <?php for ($i = 1; $i <= $totalPages; $i++): ?>
+                <?php if ($i === $currentPage): ?>
+                    <span class="active"><?= $i ?></span>
+                <?php else: ?>
+                    <a href="?page=<?= $i ?>"><?= $i ?></a>
+                <?php endif; ?>
+            <?php endfor; ?>
+
+            <!-- Botão "Próximo" -->
+            <?php if ($currentPage < $totalPages): ?>
+                <a href="?page=<?= $currentPage + 1 ?>">Próximo →</a>
+            <?php else: ?>
+                <span class="disabled">Próximo →</span>
+            <?php endif; ?>
+        </div>
+    </div>
+    <?php endif; ?>
+</div>

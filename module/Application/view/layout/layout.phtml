@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Aqui o Laminas vai inserir o título definido na view -->
+    <?= $this->headTitle() ?>
+
+    <!-- Aqui o Laminas vai inserir os links de CSS adicionados na view -->
+    <?= $this->headLink() ?>
+    
+    <title>LocMovies</title>
+</head>
+<body>
+    <!-- Header Component -->
+    <?= $this->partial('components/header.phtml') ?>
+
+    <!-- Conteúdo Dinâmico -->
+    <main class="content">
+        <?= $this->content ?>
+    </main>
+
+    <!-- Footer Component (agora aponta para a versão detalhada dentro de layout) -->
+    <?= $this->partial('layout/components/footer.phtml') ?>
+
+    <script src="/js/main.js"></script>
+</body>
+</html>
